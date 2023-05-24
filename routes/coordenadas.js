@@ -9,4 +9,4 @@ router.post("/coordenadas",(req,res)=>{
     .catch((error)=>res.json({message:error}))
 })
 
-module.exports = router
+module.exports = router;
